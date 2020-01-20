@@ -1,0 +1,17 @@
+What will be the outcome of this IAM Policy?
+{
+"Version": "2012-10-17",
+"Statement": [{
+"Action": "ec2:*",
+"Resource": "*",
+"Effect": "Allow"
+},
+{
+"Action": "*",
+"Resource": "*",
+"Effect": "Deny"
+}
+]
+}
+
+It will allow access for all EC2 and it's related services, and deny for rest of all the services.
